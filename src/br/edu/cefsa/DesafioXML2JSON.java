@@ -16,9 +16,6 @@ public class DesafioXML2JSON {
 	static FileWriter fWriter;
 	static Regras regras = new Regras();
 
-	/**
-	 * @param args the command line arguments
-	 */
 	public static void main(String[] args) throws IOException {
 
 		Verificar();
@@ -36,7 +33,7 @@ public class DesafioXML2JSON {
 			e.printStackTrace();
 		}
 
-		while (scan.hasNextLine()) {
+		while (scan.hasNextLine()) { 
 			String line = scan.nextLine();
 			estaValido(line);
 			String conteudo = estaValido(line);
